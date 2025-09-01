@@ -25,7 +25,6 @@
 .section__title {
     margin: 0 auto;
     width: 70%;
-
 }
 
 .create-form,
@@ -64,13 +63,10 @@
     appearance: none;
 }
 
-
-
 .create-form__button,
 .search-form__button {
     width: 20%;
 }
-
 
 .create-form__button-submit,
 .search-form__button-submit {
@@ -94,7 +90,7 @@
     width: 100%;
 }
 
-    .todo-table__row {
+.todo-table__row {
     border-bottom: 1px solid #ddd;
 }
 
@@ -107,22 +103,21 @@
 
 .todo-table__header-span {
     margin-right: 40%;
-
 }
 
 .todo-table__item:first-of-type {
     padding: 12px;
-    width: 90%;
+    /* width: 90%; */
+    width: auto;
 }
 
 .update-form {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    }
+}
 
 .update-form__item {
-
     width: 40%;
     line-height: 50%;
 }
@@ -136,7 +131,6 @@
 .update-form__item-p {
     text-align: left;
     font-size: 13px;
-
 }
 
 .update-form__button {
@@ -166,3 +160,4 @@
     color: #fff;
     cursor: pointer;
 }
+
